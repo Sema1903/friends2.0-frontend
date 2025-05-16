@@ -1,0 +1,189 @@
+body{
+    background-color: rgb(76, 102, 97);
+}
+#h1_div{
+    color:aliceblue;
+    background: linear-gradient(rgb(50, 67, 64), rgb(76, 102, 97));
+    padding: 1%;
+    position: relative;
+}
+#gif{
+    width: 10%;
+    border-radius: 30px;
+}
+#h1{
+    position: absolute;
+    left: 12%;
+    top: 2%;
+    font-size: 40px;
+    font-family: "Montserrat", serif;
+}
+#h2{
+    position: absolute;
+    left: 12%;
+    top: 32%;
+    font-size: 40px;
+    font-family: "Montserrat", serif;
+}
+.main_div{
+    position: relative;
+    border-radius: 20px;
+    border: 0px;
+    background-color: rgb(139, 138, 139);
+    padding-left: 40px;
+    padding-top: 20px;
+    margin-left: 10%;
+    margin-right: 10%;
+    padding-bottom: 40px;
+    padding-right: 40px;
+    margin-top: 5%;
+}
+.head_div{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+#menu{
+    position:fixed;
+    left: 10%;
+    bottom: 50px;
+    right: 10%;
+    background-color: rgb(50, 67, 64);
+    border-radius: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+#chats_button{
+    background-color: rgb(88, 111, 107);
+    border: 0px;
+    border-radius: 10px;
+    margin-top: 15px;
+    margin-bottom: 15px;
+    margin-left: 10px;
+    color: aliceblue;
+    margin-right: auto;
+    transition: 0.5s;
+    font-family: "Montserrat", serif;
+    font-size: 17px;
+}
+#chats_button:hover{
+    cursor: pointer;
+    background-color: rgb(131, 172, 165);
+    transition: 0.5s;
+    color: black;
+}
+#games_button{
+    background-color: rgb(50, 67, 64);
+    border: 0px;
+    border-radius: 10px;
+    transition: 0.5s;
+    color: aliceblue;
+    font-family: "Montserrat", serif;
+    font-size: 17px;
+    margin-top: 15px;
+    margin-bottom: 15px;
+    margin-left: auto;
+    margin-right: 10px;
+}
+#games_button:hover{
+    cursor: pointer;
+    background-color: rgb(131, 172, 165);
+    transition: 0.5s;
+    color: black;
+}
+.text_p{
+    font-family: "Montserrat", serif;
+    font-size: 17px;
+}
+.autor_h3{
+    font-family: "Montserrat", serif;
+    margin-right: auto;
+}
+#publicate_button{
+    font-family: "Montserrat", serif;
+    background-color: rgb(139, 138, 139);
+    position: absolute;
+    transition: 0.5s;
+    border-radius: 200px;
+    border: 0px;
+    padding: 15px;
+    left: 20%;
+    right: 20%;
+    top: 30%;
+    font-size: 17px;
+}
+#publicate_button:hover{
+    background-color: rgb(103, 101, 101);
+    transition: 0.5s;
+    color: aliceblue;
+}
+.score_h3{
+    font-family: "Montserrat", serif;
+}
+.status_h3{
+    font-family: "Montserrat", serif;
+    margin-left: auto;
+}
+.avatar{
+    width:75px;
+    height: 75px;
+    border-radius: 50%;
+    object-fit: cover;
+    margin-right: 1%;
+}
+.file{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 40%;
+}
+#main{
+    margin-top: -5%;
+    margin-bottom: 30%;
+}
+#chat_button{
+    background-color: rgb(50, 67, 64);
+    border: 0px;
+    border-radius: 10px;
+    margin-top: 15px;
+    margin-bottom: 15px;
+    margin-left: auto;
+    color: aliceblue;
+    margin-right: auto;
+    transition: 0.5s;
+    font-family: "Montserrat", serif;
+    font-size: 17px;   
+}
+#chat_button:hover{
+    cursor: pointer;
+    background-color: rgb(131, 172, 165);
+    transition: 0.5s;
+    color: black;
+}
+#account_button{
+    padding: 1%;
+    width: 9%;
+    margin-left: 90%;
+    background-color: rgb(76, 102, 97);
+    border: 0px;
+    transition: 0.5s;
+}
+#account_img{
+    width: 100px;
+    height: 100px;
+    object-fit: cover;
+    border-radius: 100px;
+    transition: 0.5s;
+}
+p{
+    font-family: "Montserrat", serif;
+    font-size: 17px;
+    color: white;
+}
+#account_img:hover{
+    width: 110px;
+    height: 110px;
+    object-fit: cover;
+    transition: 0.5s;
+}

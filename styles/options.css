@@ -1,0 +1,121 @@
+body{
+    background-color: rgb(76, 102, 97);
+}
+#back_button{
+    background-color: rgb(164, 163, 163);
+    transition: 0.5s;
+    border-radius: 200px;
+    border: 0px;
+    padding: 15px;
+    font-family: "Montserrat", serif;
+    margin-left: 20px;
+    font-size: 17px;
+}
+#back_button:hover{
+    background-color: rgb(134, 134, 134);
+    transition: 0.5s;
+    color: white;
+}
+#sign_div{
+    margin-top: 50px;
+    border-radius: 20px;;
+    border: 0px;
+    background-color: rgb(139, 138, 139);
+    padding-left: 40px;
+    padding-top: 20px;
+    margin-left: 400px;
+    margin-right: 400px;
+    padding-bottom: 40px;
+}
+#email_label{
+    font-family: 'Montserrat', serif;
+    font-size: 17px;
+}
+#password_label{
+    font-family: 'Montserrat', serif;
+    font-size: 17px;
+}
+#h2{
+    font-family: 'Montserrat', serif;
+}
+#email{
+    border: 0px;
+    border-radius: 100px;
+    background-color: rgb(114, 114, 114);
+    transition: 0.5s;
+    padding: 10px;
+    color: aliceblue;
+    font-family: 'Montserrat', serif;
+    font-size: 17px;
+}
+#email::placeholder{
+    color: rgb(163, 163, 163);
+    font-family: 'Montserrat', serif;
+}
+#email:hover{
+    background-color: rgb(61, 61, 61);
+    transition: 0.5s;
+}
+#password{
+    border: 0px;
+    border-radius: 100px;
+    background-color: rgb(114, 114, 114);
+    transition: 0.5s;
+    padding: 10px;
+    color: aliceblue;
+    font-family: 'Montserrat', serif;
+    font-size: 17px;
+}
+#password::placeholder{
+    color: rgb(163, 163, 163);
+    font-family: 'Montserrat', serif;
+}
+#password:hover{
+    background-color: rgb(61, 61, 61);
+    transition: 0.5s;
+}
+#sign_button{
+    background-color: rgb(114, 114, 114);
+    transition: 0.5s;
+    border-radius: 200px;
+    border: 0px;
+    padding: 15px;
+    font-family: "Montserrat", serif;
+    font-size: 17px;
+}
+#sign_button:hover{
+    background-color: rgb(61, 61, 61);
+    transition: 0.5s;
+    color: aliceblue;
+}
+#registration_button{
+    background-color: rgb(114, 114, 114);
+    transition: 0.5s;
+    border-radius: 200px;
+    border: 0px;
+    padding: 15px;
+    font-family: "Montserrat", serif;
+    font-size: 17px;
+}
+#registration_button:hover{
+    background-color: rgb(61, 61, 61);
+    transition: 0.5s;
+    color: aliceblue;
+}
+#money{
+    background-color: rgb(123, 123, 123);
+    border-radius: 20px;
+    position: fixed;
+    padding: 2.5%;
+    right: 30%;
+    left: 30%;
+    top: 40%;
+    display: none;
+    transition: 0.5s;
+    z-index: 10000000;
+}
+#p{
+    font-size: 17px;
+    color: black;
+    font-family: 'Montserrat', serif;
+}

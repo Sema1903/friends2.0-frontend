@@ -1,0 +1,169 @@
+body{
+    background-color: rgb(76, 102, 97);
+}
+#h1_div{
+    color:aliceblue;
+    background: linear-gradient(rgb(50, 67, 64), rgb(76, 102, 97));
+    padding: 1%;
+    position: relative;
+}
+#gif{
+    width: 10%;
+    border-radius: 30px;
+}
+#h1{
+    position: absolute;
+    left: 12%;
+    top: 2%;
+    font-size: 40px;
+    font-family: "Montserrat", serif;
+}
+#h2{
+    position: absolute;
+    left: 12%;
+    top: 32%;
+    font-size: 40px;
+    font-family: "Montserrat", serif;
+}
+.main_div{
+    position: relative;
+    border-radius: 20px;
+    border: 0px;
+    background-color: rgb(28, 198, 255);
+    padding-left: 1%;
+    padding-top: 1%;
+    margin-left: 10%;
+    margin-right: 10%;
+    padding-bottom: 1%;
+    padding-right: 1%;
+    margin-top: 5%;
+}
+.read_main_div{
+    position: relative;
+    border-radius: 20px;
+    border: 0px;
+    background-color: rgb(184, 184, 184);
+    padding-left: 1%;
+    padding-top: 1%;
+    margin-left: 10%;
+    margin-right: 10%;
+    padding-bottom: 1%;
+    padding-right: 1%;
+    margin-top: 5%;
+}
+.avatar_img{
+    width: 5%;
+    width:60px;
+    height: 60px;
+    border-radius: 50%;
+    object-fit: cover;
+}
+.name{
+    font-size: 17px;
+    position: absolute;
+    left: 8%;
+    font-family: "Montserrat", serif;
+}
+#menu{
+    position:fixed;
+    left: 10%;
+    bottom: 50px;
+    right: 10%;
+    background-color: rgb(50, 67, 64);
+    border-radius: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+#chats_button{
+    background-color: rgb(50, 67, 64);
+    border: 0px;
+    border-radius: 10px;
+    margin-top: 15px;
+    margin-bottom: 15px;
+    margin-left: 10px;
+    color: aliceblue;
+    margin-right: auto;
+    transition: 0.5s;
+    font-family: "Montserrat", serif;
+    font-size: 17px;
+}
+#chats_button:hover{
+    cursor: pointer;
+    background-color: rgb(131, 172, 165);
+    transition: 0.5s;
+    color: black;
+}
+#games_button{
+    background-color: rgb(50, 67, 64);
+    border: 0px;
+    border-radius: 10px;
+    transition: 0.5s;
+    color: aliceblue;
+    font-family: "Montserrat", serif;
+    font-size: 17px;
+    margin-top: 15px;
+    margin-bottom: 15px;
+    margin-left: auto;
+    margin-right: 10px;
+}
+#games_button:hover{
+    cursor: pointer;
+    background-color: rgb(131, 172, 165);
+    transition: 0.5s;
+    color: black;
+}
+#main{
+    margin-top: 15%;
+    margin-bottom: 30%;
+}
+#chat_button{
+    background-color: rgb(88, 111, 107);
+    border: 0px;
+    border-radius: 10px;
+    margin-top: 15px;
+    margin-bottom: 15px;
+    margin-left: auto;
+    color: aliceblue;
+    margin-right: auto;
+    transition: 0.5s;
+    font-family: "Montserrat", serif;
+    font-size: 17px;   
+}
+#chat_button:hover{
+    cursor: pointer;
+    background-color: rgb(131, 172, 165);
+    transition: 0.5s;
+    color: black;
+}
+#surch_input{
+    padding: 1%;
+    border-radius: 100px;
+    border: 0;
+    margin-right: 1%;
+    transition: 0.5s;
+    font-family: "Montserrat", serif;
+    font-size: 17px;   
+}
+#surch_input:hover{
+    background-color: rgb(214, 214, 214);
+    transition: 0.5s;
+}
+#surch_input::placeholder{
+    font-family: "Montserrat", serif;
+    font-size: 17px;   
+}
+#surch_button{
+    background-color: blueviolet;
+    font-family: "Montserrat", serif;
+    font-size: 17px;   
+    padding: 1%;
+    border-radius: 100px;
+    border: 0;
+    color: white;
+    transition: 0.5s;
+}
+#surch_button:hover{
+    background-color: deeppink;
+    transition: 0.5s;
+}
